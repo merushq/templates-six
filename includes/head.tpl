@@ -11,6 +11,9 @@
   <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
 <![endif]-->
 
+<!--Add Favicon **Custom** -->
+<link rel="icon" type="image/png" href="$template/img/pictorial_circle.png">
+
 <script type="text/javascript">
     var csrfToken = '{$token}',
         markdownGuide = '{lang key="markdown.title"}',

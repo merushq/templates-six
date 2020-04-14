@@ -4,5 +4,49 @@
 
     Any custom styling you want to apply should be
     defined here.
+    
+    Favicon (head.tpl):
+    
+    <link rel="icon" type="image/png" href="$template/img/pictorial_circle.png">
 
 ***************************************************** */
+@import url(https://fonts.googleapis.com/css?family=Didact+Gothic);
+@font-face{ 
+        font-family: 'Proxima Nova';
+        src:url('$template/fonts/proximanova-regular-webfont.woff') format('woff');
+}
+.navbar-main {
+    background-color: #c82027;
+    font-family: 'Proxima Nova', Helvetica, sans-serif;
+    font-size: 17px;
+}
+.navbar-main .navbar-nav>.active>a, .navbar-main .navbar-nav>.active>a:focus, .navbar-main .navbar-nav>.active>a:hover, .navbar-main .navbar-nav>.open>a, .navbar-main .navbar-nav>.open>a:focus, .navbar-main .navbar-nav>.open>a:hover, .navbar-main .navbar-nav>li>a:focus, .navbar-main .navbar-nav>li>a:hover {
+    background-color: #bb2025;
+}
+.navbar-main li.account {
+    background-color: #c82027;
+}
+ul.top-nav>li.primary-action>a.btn {
+    background-color: #c82027;
+}
+ul.top-nav>li.primary-action>a.btn:hover {
+    background-color: #bb2025;
+}
+.btn.btn-action {
+    border-color: #c82027;
+}
+h1, h2, h3, h4, h5 {
+    font-family: 'Proxima Nova', Helvetica, sans-serif;
+}
+p, body {
+    font-family: 'Proxima Nova', Helvetica, sans-serif;
+}
+div.header-lined h1 {
+    color: #333;
+}
+select.input-sm {
+    margin-bottom: 10px;
+}
+/* .kbarticles {
+*    font-size: 1em;
+*}
