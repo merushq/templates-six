@@ -13,7 +13,7 @@
 @import url(https://fonts.googleapis.com/css?family=Didact+Gothic);
 @font-face{ 
         font-family: 'Proxima Nova';
-        src:url('$template/fonts/proximanova-regular-webfont.woff') format('woff');
+        src:url('./fonts/proximanova-regular-webfont.woff') format('woff');
 }
 .navbar-main {
     background-color: #c82027;
